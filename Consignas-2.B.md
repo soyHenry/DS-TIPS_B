@@ -3,7 +3,7 @@
 ## Vamos con las consignas:
 <br>
 
-### **1) Explique que es un iterador y ejemplofique.**  
+### **1) Explique que es un iterador y ejemplifique.**  
 <br>
 
 ### **2) ¿Cuál es la diferencia entre aprendizaje supervisado y aprendizaje no supervisado?.**
