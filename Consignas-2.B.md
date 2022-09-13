@@ -9,9 +9,9 @@
 ### **2) ¿Cuál es la diferencia entre aprendizaje supervisado y aprendizaje no supervisado?.**
 <br>
 
-### **3) Se lanzan dos dados al aire y se anota la suma de puntos obtenidos. Se pide:**  
-**a.La probabilidad de que salga 7.**
-**b.La probabilidad de que el número obtenido sea par.**  
+### **3) Se lanzan dos dados al aire y se anota la suma de puntos obtenidos. Se pide:**  <br>
+**a.La probabilidad de que salga 7.**<br>
+**b.La probabilidad de que el número obtenido sea par.**  <br>
 <br>
 
 ### **4) Que diferencia existe entre un Merge y un Join en pandas?**  
