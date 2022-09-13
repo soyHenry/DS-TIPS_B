@@ -11,7 +11,14 @@
 ### **3) La probabilidad de que un hombre viva 20 años es de 1/4 y la de que su mujer viva 20 años es de 1/3. Calcular la probabilidad de**  
 <br>
 
-### **4) Cree una consulta SQL que obtenga los apellidos de una tabla "empleados" sin repeticiones**
+## Suponga tiene la tabla EMPLEADOS compuesta de la siguiente forma:
+
+| IDEmpleado | Nombre | Apellido |
+|--------|--------|--------|
+| valor | valor | valor |
+|valor  | valor  | valor |
+
+### **4) Cree una consulta SQL que obtenga los apellidos de los empleados sin repeticiones**
 <br>
 
 ### **5) Obtener todos los datos de los empleados que se apellidan "López" y los que se apellidan "Gutierrez"**
