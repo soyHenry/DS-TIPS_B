@@ -11,6 +11,10 @@
 ### **3) La probabilidad de que un hombre viva 20 años es de 1/4 y la de que su mujer viva 20 años es de 1/3. Calcular la probabilidad de**  
 <br>
 
+a) Que ambos vivan 20 años.
+b) De que el hombre viva 20 años y la mujer no.
+c) De que ambos mueran antes de los 20 años.
+
 ## Suponga tiene la tabla EMPLEADOS compuesta de la siguiente forma:
 
 | IDEmpleado | Nombre | Apellido |
