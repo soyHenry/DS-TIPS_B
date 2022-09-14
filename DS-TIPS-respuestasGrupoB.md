@@ -1,4 +1,4 @@
-# Henry - TIPS Grupo A
+# Henry - TIPS Grupo B
 
 ## **Cuestionario**:
 ### **1) Explique que es una función de agregación y mencione al menos 5 de las más comunes.**  
