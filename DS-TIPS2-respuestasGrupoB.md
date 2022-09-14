@@ -1,4 +1,4 @@
-# Henry - TIPS Grupo A
+# Henry - TIPS Grupo B
 
 ## **Cuestionario**:
 ### **1) Explique que es un iterador y ejemplifique con iteradores de python.**  
