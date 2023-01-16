@@ -6,30 +6,32 @@ Esto servirá para tus entrevistas laborales asi que ¡actúa como que estuviera
 
 <br>
 
-### **1) ¿Qué es la normalización de la base de datos?**
+### **1)Describa y explique los diferentes tipos de JOINS para SQL.**  
 
+<br>
 
+### **2) Se sacan dos bolas de una urna que se compone de una bola blanca, otra roja, otra verde y otra negra.**  
+### **Describa el espacio muestral cuando:**    
+<br>
 
-### **2)¿Qué es una subconsulta? Explique de manera breve su sintaxis.**
+**a) La primera bola se devuelve a la urna antes de sacar la segunda.**  
+**b) La primera bola no se devuelve.**  
 
+<br>
 
+### **3) ¿Cuál es la principal diferencia entre una métrica y un KPI?**
 
-### **3) ¿Puede citar algunos ejemplos en los que un falso positivo sea más importante que un falso negativo?**
+<br>
 
-<BR>
-  <BR>
+### **4) ¿Qué son las formas normales en bases de datos?**  
+<br>
 
-## Ejercicio practico python: 'Mover los ceros'
-Dada una lista de numeros, escriba una funcion que mueva todos los ceros al final
-de la lista, manteniendo el orden relativo de los numeros que no son 0.
+### **5) Ejercicio practico python: 'Mover los ceros'**   
 
-`Input`: [0, 1, 0, 3, 12]
-  
-`Output`: [1, 3, 12, 0, 0]
-
+<br>
 
 
 # ¡A PENSAR!
 
-# Recuerda que no deberías poder usar Google. 
+# Recuerda que no deberías usar Google. 
 ![img](https://thumbs.gfycat.com/KaleidoscopicFaintHind-size_restricted.gif)

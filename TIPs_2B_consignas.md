@@ -6,48 +6,54 @@ Recuerda! Esto servirá para tus entrevistas laborales asi que ¡actúa como que
 
 <br>
 
-### **1)¿Qué son los iteradores de Python? Ejemplifique.**
+### **1)¿Qué es la complejidad algorítmica? ¿Con qué símbolo o letra se representa la notación de la cota superior?**  
+<br>
 
 
-### **2)¿Qué es una serie en pandas?**
+### **2) Se lanzan dos dados al aire y se anota la suma de puntos obtenidos. Se pide:**  
+
+**a) La probabilidad de que salga 7.**  
+    
+**b.  La probabilidad de que el número obtenido sea par.**
+
+<br>
+
+### **3) Nombre los diferentes objetos de una base de datos (pista: 6 son permanentes y 1 temporal)**  
+<br>
+
+### **4) ¿Qué librerías de visualización para Python conocen? ¿Y para graficar mapas geográficos? ¿Y para realizar Dashboards?**  
+<br>
 
 
-### **3) ¿Cuáles son los diferentes tipos de vistas disponibles en POWER BI Desktop?**
+## Suponga que tiene las tablas *Ciudad* y *Pais* compuestas de la siguiente forma.  
 
+### Ciudad                 
 
-
-
-
-## Suponga que tiene las tablas *SALAS* y *PELICULAS* compuestas de la siguiente forma.
-
-### SALAS                     
-
-| `PK` | Codigo | int |
+| `PK` | ID | int |
 |--------|--------|:--------:|
 |  | Nombre | nvarchar(100) |
-| `FK1`  | Pelicula  | int |
+| `FK1`  | Id_Pais  | int |
+|  | Población | int |
   
 
-### PELICULAS
+### Pais
   
-| `PK` | Codigo | int |
+| `PK` | ID | int |
 |--------|:--------|:--------:|
 |  | Nombre | nvarchar(100) |
-|  | CalificacionEdad  | int |
+|  | Continente  | nvarchar(100) |
+|  | PBI | int |
   
-Note que existe una relacion entre *`FK1` - Pelicula* de la tabla SALAS y *`PK`-Codigo* de la tabla PELICULAS
+Note que existe una relacion entre *`FK1` - Id_pais* de la tabla Ciudad y *`PK`- ID* de la tabla Pais
   
 <br>
 
 ## Con dichas tablas construya las siguientes queries:
-### **4) Seleccione los valores unicos de calificaciones de edad que existen.**
-
-
-### **5) Se ha agregado una nueva pelicula llamada "Hola, Mundo" para mayores de 8 años. Actualice la tabla correspondiente**
-
+### **5) Calcule la población de todas las ciudades de Asia.**
+<br>
   
-### **6) Seleccione todas las salas, y si se proyecta alguna pelicula en la sala, selecciones tambien la informacion de la pelicula proyectada**
-  
+### **6) Se debe agregar una ciudad llamada "Springfield" en USA (Id=3320), de población: 50720. Actualice la tabla correspondiente**
+
 <br>
 
 

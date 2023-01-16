@@ -6,81 +6,96 @@ Bajo ningun punto de vista queremos su compañer@ pase un mal momento! Simplemen
 
 <br>
   
-### **1)¿Qué son los iteradores de Python? Ejemplifique.**
+### **1)¿Qué es la complejidad algorítmica? ¿Con qué símbolo o letra se representa la notación de la cota superior?**
 
-__Respuesta Esperada__:   _Los iteradores son objetos que contienen algunos valores contables. Ejemplo listas, tuplas, conjuntos y diccionarios._
-
-<br>
-
-### **2)¿Qué es una serie en pandas?**
-
-__Respuesta Esperada__:   _Es un tipo de Arreglo similar a un array de NumPy que te permite almacenar información de diversa tipología ; sea por medio de cadenas de texto , flotantes o enteros, dtype, entre otros (a diferencia del array de NumPy que debe ser sólo de un tipo). En un nivel más sutil puedes incluso trabajar con constructores y toda una diversidad de métodos._
-
-  <br>
-
-### **3) ¿Cuáles son los diferentes tipos de vistas disponibles en POWER BI Desktop?**
-
-__Respuesta Esperada__:   _Hay 3 tipos de vistas disponibles, cada una con un propósito diferente:
-Vista Reporte: permite añadir páginas, visualizaciones y publicar
-Vista de Data: permite realizar manejo de datos usando herramientas de Query Editor.
-Vista de Modelo: permite manejar las relaciones entre las tablas de datos._
-
+__Respuesta Esperada__:   
+_La complejidad algorítmica representa la cantidad de recursos (temporales) que necesita un algoritmo para resolver un problema y por tanto permite determinar la eficiencia de dicho algoritmo.  
+En términos de notación, en la complejidad algorítmica se suele emplear una contracción que exprese de igual manera la naturaleza del algoritmo en cuestión, es decir, para una complejidad polinomial Θ(5n² + 8n + 3), se sintetizará la expresión tomando solo la literal con el mayor grado relativo, quedando expresado como Θ(n²). Esta notación se conoce como Orden de Complejidad algorítmica._
 
 <br>
 
+### **2) Se lanzan dos dados al aire y se anota la suma de puntos obtenidos. Se pide:**  
+**a) La probabilidad de que salga 7.**  
+    
+**b.  La probabilidad de que el número obtenido sea par.**   
+<br>
 
-## Suponga que tiene las tablas *SALAS* y *PELICULAS* compuestas de la siguiente forma.
+__Respuesta Esperada__:   
+_a)_ 
+  _i. Casos Favorables: $$6 \longrightarrow (1+6),(2+5),(3+4)...$$_   
+  _ii.Casos Posibles: $${6^2}  = 36$$_  
+  _iii.Probabilidad: $$\dfrac{Casos Favorables}{Casos Posibles} = \dfrac{6}{36} = 0.1666...$$._
 
-### SALAS                     
+_b)_  
+  _i. Casos Favorables: 18_  
+  _ii. Casos posibles: 36_  
+  _iii. Probabilidad: $$\dfrac{Casos Favorables}{Casos Posibles} = \dfrac{18}{36}= 0.5$$_
 
-| `PK` | Codigo | int |
+<br>
+
+### **3) Nombre los diferentes objetos de una base de datos (pista: 6 son permanentes y 1 temporal)**  
+<br>
+
+__Respuesta Esperada__:   
+_Permanentes: Table, Views, Procedures, Functions (definidas por el usuario), Triggers, Indexes.  
+Temporales: Cursors._
+
+
+<br>
+
+### **4) ¿Qué librerías de visualización para Python conocen? ¿Y para graficar mapas geográficos? ¿Y para realizar Dashboards?**  
+<br>
+
+__Respuesta Esperada__:  
+
+_Hay muchas. Entre las más utilizadas para realizar visualizaciones varias está matplotlib (de muy bajo nivel), seaborn (construida sobre matplotlib), plotly (muy completa y de alto nivel, permite simplificar mucho la sintaxis para realizar gráficos interactivos pero es computacionalmente más costosa), plotnine (muy similar a ggplot2 muy usado en el lenguaje R), Gleam (muy similar a Shiny en el lenguaje R), missingno (muy útil para lidiar con datos faltantes), leather (permite generar gráficos simples pero en formato SVG muy escalables a cualquier resolución), Bokeh (permite gráficos interactivos) y Altair (permite gráficos interactivos muy llamativos). Para mapas, pueden utilizar Plotly, Bokeh, Altair, la librería Folium permite crear mapas interactivos muy personalizables y computacionalmente más baratos que plotly, también está la librería Geoplotlib. Para los dashboards, se puede utilizar Bokeh, Dash o Streamlit._
+<br>
+
+
+## Suponga que tiene las tablas *Ciudad* y *Pais* compuestas de la siguiente forma.  
+
+### Ciudad                 
+
+| `PK` | ID | int |
 |--------|--------|:--------:|
 |  | Nombre | nvarchar(100) |
-| `FK1`  | Pelicula  | int |
+| `FK1`  | Id_Pais  | int |
+|  | Población | int |
   
 
-### PELICULAS
+### Pais
   
-| `PK` | Codigo | int |
+| `PK` | ID | int |
 |--------|:--------|:--------:|
 |  | Nombre | nvarchar(100) |
-|  | CalificacionEdad  | int |
+|  | Continente  | nvarchar(100) |
+|  | PBI | int |
   
-Note que existe una relacion entre *`FK1` - Pelicula* de la tabla SALAS y *`PK`-Codigo* de la tabla PELICULAS
+Note que existe una relacion entre *`FK1` - Id_pais* de la tabla Ciudad y *`PK`- ID* de la tabla Pais
   
 <br>
 
 ## Con dichas tablas construya las siguientes queries:
-### **4) Seleccione los valores unicos de calificaciones de edad que existen.**
+### **5) Calcule la población de todas las ciudades de Asia.**
 <br>
   
 __Respuesta Esperada__:
 ```sql
-SELECT DISTINCT CalificacionEdad 
-FROM PELICULAS
+SELECT SUM(Ciudad.Poblacion)
+FROM Pais
+JOIN Ciudad
+ON Pais.ID = Ciudad.Id_pais
+WHERE Pais.Continente = 'Asia';
 ```
 
 
-### **5) Se ha agregado una nueva pelicula llamada "Hola, Mundo" para mayores de 8 años. Actualice la tabla correspondiente**
+### **6) Se debe agregar una ciudad llamada "Springfield" en USA (Id=3320), de población: 50720. Actualice la tabla correspondiente**
 <br>
   
 __Respuesta Esperada__:
 ```sql
-INSERT INTO PELICULAS (Nombre, CalificacionEdad)
-VALUES ("Hola, Mundo", 8)
+INSERT INTO Ciudad (Nombre, Id_pais,Poblacion)
+VALUES ("Springfield", 3320,50720)
 ```
 
-  
-### **6) Seleccione todas las salas, y si se proyecta alguna pelicula en la sala, selecciones tambien la informacion de la pelicula proyectada**
-  
-<br>
-  
-__Respuesta Esperada__:   
-
-```sql
-SELECT *
-FROM SALAS LEFT JOIN PELICULAS
-ON SALAS.Pelicula = PELICULAS.Codigo
-```
-<br>
   

@@ -6,68 +6,64 @@ Bajo ningun punto de vista queremos su compañer@ pase un mal momento! Simplemen
 
 <br>
   
-### **1) ¿Qué es la normalización de la base de datos?**
+### **1)Describa y explique los diferentes tipos de JOINS para SQL.**
 
-__Respuesta Esperada__:   _Proceso de análisis de las relaciones de los datos basado en sus dependencias funcionales y claves primarias para conseguir las siguientes propiedades deseables:_
 
-  
-  _1)Minimizar la redundancia_
+__Respuesta Esperada__:  
 
-  _2) Minimizar las anomalías de inserción, borrado y actualización_
-
-_Si los esquemas de relación no cumplen las propiedades, se descomponen en esquemas de relación más pequeños que puedan cumplir con las propiedades deseables (Formas Normales)._
+_- INNER JOIN: Devuelve todas las filas cuando hay al menos una coincidencia en ambas tablas._  
+_- LEFT JOIN: Devuelve todas las filas de la tabla IZQUIERDA y las filas coincidentes de la tabla de la derecha._  
+_- RIGHT JOIN: Devuelve todas las filas de la tabla DERECHA y las filas coincidentes de la tabla de la izquierda._  
+_- OUTER JOIN: Devuelve todas las filas de las dos tablas. También conocida como FULL OUTER JOIN.__
   
 <br>
   
-### **2)¿Qué es una subconsulta? Explique de manera breve su sintaxis.**
+### **2) Se sacan dos bolas de una urna que se compone de una bola blanca, otra roja, otra verde y otra negra. Describa el espacio muestral cuando:**  
 
-__Respuesta Esperada__:   _Una subconsulta es una consulta hecha sobre otra consulta._
-
-  
-  SELECT <column_name>
-  
-  FROM <table_name> 
-  
-  WHERE <column_name> IN/NOT IN  (subconsulta).
-  
-                           
-
-<br>
-  
-### **3) ¿Puede citar algunos ejemplos en los que un falso positivo sea más importante que un falso negativo?**
+**a) La primera bola se devuelve a la urna antes de sacar la segunda.**  
+**b) La primera bola no se devuelve.**
 
 
-__Respuesta Esperada__:   _En medicina podría significar la toma de medidas de tratamiento demasiado apresuradas cómo recibir medicamentos que no necesitan, a veces con efectos secundarios peligrosos; o conducir a procedimientos innecesarios, en ocasiones permanentes. 
-Por ejemplo, una mujer en edad fértil que recibe un falso positivo por cáncer cervicouterino, podría someterse a una histerectomía innecesaria. Como resultado, perdería su capacidad de tener hijos._
+
+__Respuesta Esperada__:   
+
+_a) E = {BB,BR,BV,BN,RB,RR,RV,RN,VB,VR,VV,VN,NB,NR,NV,NN}_  
+
+_b) E={BR,BV,BN,RB,RV,RN,VB,VR,VN,NB,NR,NV._
+                          
 
 <br>
-  <br>
   
+### **3) ¿Cuál es la principal diferencia entre una métrica y un KPI?**
 
 
+__Respuesta Esperada__:   _Los KPI difieren de las métricas en la forma en la que se utilizan. Mientras que una métrica mide un valor crudo sobre un proceso, un KPI está asociado directamente a un objetivo marcado por la empresa y permite evaluar si las estrategias seguidas para conseguirlo están funcionando._
 
-## Ejercicio practico python: 'Mover los ceros'
-Dada una lista de numeros, escriba una funcion que mueva todos los ceros al final
-de la lista, manteniendo el orden relativo de los numeros que no son 0.
+<br>
 
-`Input`: [0, 1, 0, 3, 12]
   
-`Output`: [1, 3, 12, 0, 0]
+### **4) ¿Qué son las formas normales en bases de datos?**
+ 
+__Respuesta Esperada:__:  
+_Son una serie de normas que se aplican a las tablas de datos para cumplir con la propiedad deseable de no redundancia. Son 5 formas normales y en general, se considera que una base de datos está correctamente normalizada si llega por lo menos a la tercera forma normal (3F)_
+
+
+## **5) Ejercicio practico python: 'Mover los ceros'**  
+
+Dada una cadena de caracteres en minúscula, crear una función que sólo devuelva las vocales del string
+
+`Input`: onomatopeya  
+`Output`: ooaoea
 
   
 __Respuesta Esperada__:
 
 ```python
-lista1 = [0,1,0,3,12]
-lista2 = [1,7,0,0,8,0,10,12,0,4]
+def filtrar_vocales(string):  
+    for i in string:  
+        vocales =['a','e','i','o','u']
+        if i in vocales:  
+            print(i, end = '')  
 
-def mueve_0s(nums):
-    for i in nums:
-        if 0 in nums:
-            nums.remove(0)
-            nums.append(0)
-    return nums
-
-mueve_0s(lista1)
-mueve_0s(lista2)
+filtrar_vocales('onomatopeya');
  ```
