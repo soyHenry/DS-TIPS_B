@@ -4,7 +4,7 @@
 <h3>1)  Respuesta:</h3>
 <p>Un JOIN interno en SQL devuelve solo los registros que tienen coincidencias en ambas tablas, mientras que un JOIN externo devuelve todos los registros de una tabla y los registros coincidentes de otra tabla. </p>
 <h3>2)  Respuesta:</h3>
-<p>Las VARIABLES CATEGÓRICAS son un tipo de dato que maneja nativamente pandas (type=category). Una variable categórica toma solo una categoría fija(generalmente un número fijo) de valores. Algunos ejemplos de variables categóricas son género, grupo sanguíneo, idioma, etc. Un contraste principal con estas variables es que no se pueden realizar operaciones matemáticas con estas variables. </p>
+<p>NumPy es un paquete de módulos muy popular en Python, que permite realizar operaciones matemáticas y algebraicas muy fácil y eficientemente, gracias a su estructura de datos, llamada Array (o arreglo) que, al tener sólo un tipo de dato (a diferencia de las listas que pueden tener al mismo tiempo strings, floats, e incluso diccionarios o listas) permite trabajar mucho más eficientemente y aparte permite almacenar datos en varias dimensiones </p>
 <h3>3)  Respuesta:</h3>
 <p>Los iteradores son objetos que contienen algunos valores contables. Ejemplo listas, tuplas, conjuntos y diccionarios. </p>
 <h3>4)  Respuesta:</h3>
