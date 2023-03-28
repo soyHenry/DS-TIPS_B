@@ -4,7 +4,7 @@
 <p>Esto servirá para tus entrevistas laborales asi que ¡actúa como que estuvieras en una! :bowtie: </p>
 <h2>Elegir la opción correspondiente</h2>
 <h3>1)  ¿Cuál es la diferencia entre un JOIN interno y un JOIN externo en SQL?</h3>
-<h3>2)  ¿Qué es una variable categórica en Pandas?</h3>
+<h3>2)  ¿Qué es NumPy? ¿Cuál es la estructura de datos que utiliza y en qué se diferencia de una lista?</h3>
 <h3>3)  ¿Qué son los iteradores de Python? Ejemplifique.</h3>
 <h3>4)  ¿Cuál es la diferencia entre medida calculada, columna calculada y tabla calculada?</h3>
 <h3>5)  Una urna tiene ocho bolas rojas, cinco amarillas y siete verdes. Si se extrae una bola al azar calcular la probabilidad de que:</h3>
