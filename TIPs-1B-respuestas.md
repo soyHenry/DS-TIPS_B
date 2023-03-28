@@ -2,7 +2,7 @@
 <h2>Grupo B --&gt; Primer Set de Tips con Respuestas</h2>
 <h2>NO MOSTRAR A SUS PAREJAS DE TIPS!</h2>
 <h3>1)  Respuesta:</h3>
-<p>Las funciones de agregación realizan análisis estadísticos sobre número (o fechas en algunos casos. Count, AVG, Max, Min, STDDEV, Variance. </p>
+<p>Las funciones de agregación realizan análisis estadísticos sobre números (o fechas en algunos casos): Count, AVG, Max, Min, STDDEV, Variance. </p>
 <h3>2)  Respuesta:</h3>
 <p>El nivel en los lenguajes de programación se refiere a qué tan parecido es al código que leen los procesadores, mientras más bajo sea el nivel, más similar al código que leen los procesadores y más rápido podrá ser procesado una vez compilado, pero como contraparte mucho más complejo será escribir dicho código, mientras mayor sea el nivel, más fácil es expresarlo para las personas, más natural al humano, pero es costoso de compilar y se procesan menos eficientemente. Python se considera un lenguaje de alto nivel, con una sintaxis muy simplificada que facilita la creación de código. Es un lenguaje interpretado, no necesita ser compilado, sino que el intérprete de Python va leyendo e interpretando el código una vez que es ejecutado. </p>
 <h3>3)  Respuesta:</h3>
