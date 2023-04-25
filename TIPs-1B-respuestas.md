@@ -22,12 +22,13 @@ Tupla: Inmutable, velocidad superior y utilización de paréntesis </p>
 <h3>5)  Respuesta:</h3>
 <p>La probabilidad condicional es la probabilidad de que un evento ocurra dado que otro evento ya ha ocurrido. La probabilidad condicional se calcula dividiendo la probabilidad del evento conjunto por la probabilidad del evento condicionante.</p>
 <h3>6)  Respuesta:</h3>
-<p>a) 8 casos favorables de 20 posibles. RTA 25</p>
+<p>a) 8 casos favorables de 20 posibles. RTA 0.4</p>
 <p>b)La probabilidad de que al sacar 2 papeles al menos tenga un coche menos la probabilidad de que al sacar 2 papeles las dos sean blancas. Por lo tanto:
 = 1 - P(2 Blancas)
-= 1 - 12201119
-= 6295</p>
+= 1 - (12/20)*(12/20)
+= 1 - 0.36
+= 0.64</p>
 <p>c) Tenemos la probabilidad de que al sacar 3 papeles al menos una tenga un coche menos la probabilidad de que al sacar 3 todas sean blancas. Por lo tanto:
 = 1 - P(3 Blancas)
-= 1 - 122011191018
-= 4657</p>
+= 1 - (12/20)*(12/20)*(12/20)
+= 0.784</p>
