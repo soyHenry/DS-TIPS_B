@@ -14,15 +14,15 @@
 <h3>5)  Respuesta:</h3>
 <p>i. Casos Favorables: 8
 Casos posibles: 8 + 5 + 7 = 20
-Probabilidad = Casos FavorablesCasos Posibles= 820 = 0.4 </p>
+Probabilidad = Casos FavorablesCasos Posibles= 12/20 = 0.6 </p>
 
 <p>ii. Casos Favorables: 7
 Casos posibles: 8 + 5 + 7 = 20
-Probabilidad = Casos FavorablesCasos Posibles= 720 = 0.35</p>
+Probabilidad = Casos FavorablesCasos Posibles= 15/20 = 0.35</p>
 
 <p>iii. Casos Favorables: 5
 Casos posibles: 8 + 5 + 7 = 20
-Probabilidad = Casos FavorablesCasos Posibles= 520 = 0.25</p>
+Probabilidad = Casos FavorablesCasos Posibles= 5/20 = 0.25 </p>
 
 
 <h3>6)  Respuesta:</h3>
