@@ -12,13 +12,13 @@
 <h3>4)  Respuesta:</h3>
 <p>DAX viene de “Data Analysis Expressions”. Es una colección de funciones, operadores y constantes usadas en fórmulas para calcular y retornar valores en POWER BI. </p>
 <h3>5)  Respuesta:</h3>
-<p>i. Casos Favorables: 8
+<p>i. Casos Favorables: 12
 Casos posibles: 8 + 5 + 7 = 20
 Probabilidad = Casos FavorablesCasos Posibles= 12/20 = 0.6 </p>
 
-<p>ii. Casos Favorables: 7
+<p>ii. Casos Favorables: 13
 Casos posibles: 8 + 5 + 7 = 20
-Probabilidad = Casos FavorablesCasos Posibles= 15/20 = 0.35</p>
+Probabilidad = Casos FavorablesCasos Posibles= 13/20 = 0.65</p>
 
 <p>iii. Casos Favorables: 5
 Casos posibles: 8 + 5 + 7 = 20
