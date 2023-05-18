@@ -3,18 +3,12 @@
 <p><img alt="henry" src="https://blog.soyhenry.com/content/images/2021/02/HEADER-BLOG-NEGRO-01.jpg" /> </p>
 <p>Esto servirá para tus entrevistas laborales asi que ¡actúa como que estuvieras en una! :bowtie: </p>
 <h2>Elegir la opción correspondiente</h2>
-<h3>1)  Describa la diferencia entre claves primarias y foráneas en una base de datos SQL</h3>
-<h3>2)  Especificar la diferencia entre variables locales y globales.</h3>
-<h3>3)  ¿Para qué se usan break, continue y pass en python?</h3>
-<h3>4)  ¿Qué es DAX?</h3>
-<h3>5)  Una urna tiene ocho bolas rojas, cinco amarillas y siete verdes. Si se extrae una bola al azar calcular la probabilidad de que: </h3>
-
-<p>i. No sea Roja</p>
-
-<p>ii. No sea Verde</p>
-
-<p>iii. Sea Amarilla</p>
-
+<h3>1)  ¿Cómo se pueden realizar consultas para buscar registros duplicados en una tabla en SQL?</h3>
+<h3>2)  ¿Qué es un index en Pandas? ¿Cómo podría acceder a él? ¿Puede haber más de uno?</h3>
+<h3>3)  ¿Qué es la recursividad en Python?</h3>
+<h3>4)  ¿Cuál es la diferencia entre medida calculada, columna calculada y tabla calculada?</h3>
+<h3>5)  Ejercicio de estadística descriptiva:
+Suponga que tiene una muestra de n = 10 observaciones con las siguientes puntuaciones: 7, 5, 8, 6, 4, 9, 6, 8, 7, 5. Calcule la media, la mediana y la desviación estándar de la muestra.</h3>
 
 <h3>6)  ¿Qué es la regresión lineal?</h3>
 <h1>¡A PENSAR!</h1>
