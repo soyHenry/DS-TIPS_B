@@ -9,6 +9,7 @@
 <h3>4)  ¿Cuál es la diferencia entre medida calculada, columna calculada y tabla calculada?</h3>
 <h3>5)  Ejercicio de estadística descriptiva:
   
+  
 Suponga que tiene una muestra de n = 10 observaciones con las siguientes puntuaciones: 7, 5, 8, 6, 4, 9, 6, 8, 7, 5. Calcule la media, la mediana y la desviación estándar de la muestra.</h3>
 
 <h3>6)  ¿Qué es la regresión lineal?</h3>
