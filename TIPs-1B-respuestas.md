@@ -4,9 +4,9 @@
 <h3>1)  Respuesta:</h3>
 <p>Una subconsulta es una consulta que se ejecuta dentro de otra consulta, mientras que una unión combina los resultados de dos o más consultas en una sola tabla. </p>
 <h3>2)  Respuesta:</h3>
-<p>NumPy es un paquete de módulos muy popular en Python, que permite realizar operaciones matemáticas y algebraicas muy fácil y eficientemente, gracias a su estructura de datos, llamada Array (o arreglo) que, al tener sólo un tipo de dato (a diferencia de las listas que pueden tener al mismo tiempo strings, floats, e incluso diccionarios o listas) permite trabajar mucho más eficientemente y aparte permite almacenar datos en varias dimensiones </p>
+<p>NumPy es un paquete de módulos muy popular en Python, que permite realizar operaciones matemáticas y algebraicas muy fácil y eficientemente, gracias a su estructura de datos, llamada Array (o arreglo) que, al tener sólo un tipo de dato (a diferencia de las listas que pueden tener al mismo tiempo strings, floats, e incluso diccionarios o listas) permite trabajar mucho más eficientemente y aparte permite almacenar datos en varias dimensiones. </p>
 <h3>3)  Respuesta:</h3>
-<p>El 'index' es el "índice" de DataFrame, se aplica normalmente a la referencia de un dato en una estructura según su posición, para poder referenciar cada fila. Se puede acceder a través del atributo .index de pandas, que devuelve la representación del mismo. Puede haber más de un índice en el DataFrame, estas estructuras poseen MultiIndex, que es un índice funcionando a varios niveles de jerarquía, donde múltiples columnas de índice refieren a una fila. Permiten análisis de datos multidimensionales. </p>
+<p>El 'index' es el "índice" de DataFrame, se aplica normalmente a la referencia de un dato en una estructura según su posición, para poder referenciar cada fila. Se puede acceder a través del atributo .index de pandas, que devuelve su representación. Puede haber más de un índice en el DataFrame, estas estructuras poseen MultiIndex, que es un índice funcionando a varios niveles de jerarquía, donde múltiples columnas de índice refieren a una fila. Permiten análisis de datos multidimensionales. </p>
 <h3>4)  Respuesta:</h3>
 <p>Hay 3 tipos de vistas disponibles, cada una con un propósito diferente:</p>
 <p>Vista Reporte: permite añadir páginas, visualizaciones y publicar</p>
