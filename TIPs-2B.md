@@ -1,7 +1,7 @@
 <h1>TIPS: Technical Interview Preparation</h1>
 <h2>Grupo B --&gt; Segundo Set de Tips</h2>
 <p><img alt="henry" src="https://blog.soyhenry.com/content/images/2021/02/HEADER-BLOG-NEGRO-01.jpg" /> </p>
-<p>Esto servirá para tus entrevistas laborales, así que ¡actúa como que estuvieras en una! :bowtie: </p>
+<p>Esto servirá para tus entrevistas laborales, así que ¡actúa como si estuvieras en una! :bowtie: </p>
 <h2>Elegir la opción correspondiente</h2>
 <h3>1)  ¿Cómo se pueden realizar consultas para buscar registros duplicados en una tabla en SQL?</h3>
 <h3>2)  ¿Qué es un index en Pandas? ¿Cómo podría acceder a él? ¿Puede haber más de uno?</h3>
