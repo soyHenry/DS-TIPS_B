@@ -1,7 +1,7 @@
 <h1>TIPS: Technical Interview Preparation</h1>
 <h2>Grupo B --&gt; Primer Set de Tips</h2>
 <p><img alt="henry" src="https://blog.soyhenry.com/content/images/2021/02/HEADER-BLOG-NEGRO-01.jpg" /> </p>
-<p>Esto servirá para tus entrevistas laborales, así que ¡actúa como que estuvieras en una! :bowtie: </p>
+<p>Esto servirá para tus entrevistas laborales, así que ¡actúa como si estuvieras en una! :bowtie: </p>
 <h2>Elegir la opción correspondiente</h2>
 <h3>1)  ¿Cuál es la diferencia entre una subconsulta y una unión en SQL?</h3>
 <h3>2)  ¿Qué es NumPy? ¿Cuál es la estructura de datos que utiliza y en qué se diferencia de una lista?</h3>
