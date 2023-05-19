@@ -12,6 +12,15 @@
 <h3>6)  Se sacan dos bolas de una urna que se compone de una bola blanca, otra roja, otra verde y otra negra. Describa el espacio muestral cuando:</h3>
 <p>a) La primera bola se devuelve a la urna antes de sacar la segunda</p>
 <p>b) La primera bola no se devuelve</p>
+
+## Ejercicio practico python: 'Mover los ceros'
+Dada una lista de numeros, escriba una funcion que mueva todos los ceros al final
+de la lista, manteniendo el orden relativo de los numeros que no son 0.
+
+`Input`: [0, 1, 0, 3, 12]
+  
+`Output`: [1, 3, 12, 0, 0]
+
 <h1>¡A PENSAR!</h1>
 <h1>Recuerda que no deberías poder usar Google.</h1>
 <p><img alt="img" src="https://camo.githubusercontent.com/dbcddd7088648e4ffbd139c31d5f0fb1b1b677650e1ebbe22293d4fd2b44b774/68747470733a2f2f6d656469612e74656e6f722e636f6d2f646f49736f48343361324541414141432f7468696e6b2d656d6f6a692e676966" /></p>
