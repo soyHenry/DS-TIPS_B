@@ -18,3 +18,30 @@
 <h3>6)  Respuesta:</h3>
 <p>a) E = {BB,BR,BV,BN,RB,RR,RV,RN,VB,VR,VV,VN,NB,NR,NV,NN}</p>
 <p>b) E={BR,BV,BN,RB,RV,RN,VB,VR,VN,NB,NR,NV}</p>
+
+## Ejercicio practico python: 'Mover los ceros'
+Dada una lista de numeros, escriba una funcion que mueva todos los ceros al final
+de la lista, manteniendo el orden relativo de los numeros que no son 0.
+
+`Input`: [0, 1, 0, 3, 12]
+  
+`Output`: [1, 3, 12, 0, 0]
+
+  
+__Solucion propuesta__:
+
+```python
+lista1 = [0,1,0,3,12]
+lista2 = [1,7,0,0,8,0,10,12,0,4]
+
+def mueve_0s(nums):
+    for i in nums:
+        if 0 in nums:
+            nums.remove(0)
+            nums.append(0)
+    return nums
+
+mueve_0s(lista1)
+mueve_0s(lista2)
+ ```
+
