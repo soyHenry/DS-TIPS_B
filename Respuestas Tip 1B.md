@@ -9,11 +9,11 @@
 <h3>2)  Respuesta:</h3>
 <p>Hay muchas. Entre las más utilizadas para realizar visualizaciones varias está matplotlib (de muy bajo nivel), seaborn (construida sobre matplotlib), plotly (muy completa y de alto nivel, permite simplificar mucho la sintaxis para realizar gráficos interactivos pero es computacionalmente más costosa), plotnine (muy similar a ggplot2 muy usado en el lenguaje R), Gleam (muy similar a Shiny en el lenguaje R), missingno (muy útil para lidiar con datos faltantes), leather (permite generar gráficos simples pero en formato SVG muy escalables a cualquier resolución), Bokeh (permite gráficos interactivos) y Altair (permite gráficos interactivos muy llamativos). Para mapas, pueden utilizar Plotly, Bokeh, Altair, la librería Folium permite crear mapas interactivos muy personalizables y computacionalmente más baratos que plotly, también está la librería Geoplotlib. Para los dashboards, se puede utilizar Bokeh, Dash o Streamlit. </p>
 <h3>3)  Respuesta:</h3>
-<p>```def tabla_multiplicar(n):
+<p><code>def tabla_multiplicar(n):
     print("Tabla de multiplicar de", n, ":")
     for i in range(1, 11):
         resultado = n * i
-        print(n, "x", i, "=", resultado)</p>
+        print(n, "x", i, "=", resultado)</code> </p>
 <p>tabla_multiplicar(5)``` </p>
 <h3>4)  Respuesta:</h3>
 <p>Pueden implementarse 3 tipos de filtros:</p>
