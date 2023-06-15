@@ -1,11 +1,11 @@
 <h1>TIPS: Technical Interview Preparation</h1>
 <h2>Grupo B --&gt; Segundo Set de Tips</h2>
 <p><img alt="henry" src="https://blog.soyhenry.com/content/images/2021/02/HEADER-BLOG-NEGRO-01.jpg" /> </p>
-<p>Esto servirá para tus entrevistas laborales asi que ¡actúa como que estuvieras en una! :bowtie: </p>
+<p>Esto servirá para tus entrevistas laborales, así que ¡actúa como que estuvieras en una! :bowtie: </p>
 <h2>Elegir la opción correspondiente</h2>
 <h3>1)  Nombre los diferentes objetos de una base de datos (pista: 6 son permanentes y 1 temporal)</h3>
 <h3>2)  ¿Qué es NumPy? ¿Cuál es la estructura de datos que utiliza y en qué se diferencia de una lista?</h3>
-<h3>3)  Escribí un programa que determina si una palabra es un palíndromo</h3>
+<h3>3)  Escriba un programa que determine si una palabra es un palíndroma</h3>
 <h3>4)  ¿Qué es DAX?</h3>
 <h3>5)  ¿Qué es la distribución normal?</h3>
 <h3>6)  En un sobre hay 20 papeles, 8 poseen un dibujo de un coche, las restantes son blancas. Hallar la probabilidad de extraer al menos un papel con el dibujo de un coche:</h3>
