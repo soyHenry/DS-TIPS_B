@@ -1,7 +1,7 @@
 <h1>TIPS: Technical Interview Preparation</h1>
 <h2>Grupo B --&gt; Primer Set de Tips</h2>
 <p><img alt="henry" src="https://blog.soyhenry.com/content/images/2021/02/HEADER-BLOG-NEGRO-01.jpg" /> </p>
-<p>Esto servirá para tus entrevistas laborales asi que ¡actúa como que estuvieras en una! :bowtie: </p>
+<p>Esto servirá para tus entrevistas laborales, así que ¡actúa como que estuvieras en una! :bowtie: </p>
 <h2>Elegir la opción correspondiente</h2>
 <h3>1)  ¿Qué es una subconsulta? Explique de manera breve su sintaxis.</h3>
 <h3>2)  ¿Qué librerías de visualización para Python conoce? ¿Y para graficar mapas geográficos? ¿Y para realizar Dashboards?</h3>
