@@ -13,8 +13,8 @@
     print("Tabla de multiplicar de", n, ":")
     for i in range(1, 11):
         resultado = n * i
-        print(n, "x", i, "=", resultado)</code> </p>
-<p>tabla_multiplicar(5)``` </p>
+        print(n, "x", i, "=", resultado)
+<p>tabla_multiplicar(5)</code> </p>
 <h3>4)  Respuesta:</h3>
 <p>Pueden implementarse 3 tipos de filtros:</p>
 <p>Filtros a nivel visualización: filtra tanto datos como medidas calculadas, limitando la cantidad de información que puede verse en una visualización determinada.</p>
