@@ -17,8 +17,8 @@
 <p>tabla_multiplicar(5)``` </p>
 <h3>4)  Respuesta:</h3>
 <p>Pueden implementarse 3 tipos de filtros:</p>
-<p>Filtros a nivel visualización: Filtra tanto datos como medidas calculadas, limitando la cantidad de información que puede verse en una visualización determinada.</p>
-<p>Filtros a nivel página: Filtra la info en todas las visualizaciones de una página específica del reporte.</p>
+<p>Filtros a nivel visualización: filtra tanto datos como medidas calculadas, limitando la cantidad de información que puede verse en una visualización determinada.</p>
+<p>Filtros a nivel página: filtra la info en todas las visualizaciones de una página específica del reporte.</p>
 <p>Filtros a nivel reporte: se aplican a todas las páginas y visualizaciones en simultáneo.</p>
 <h3>5)  Respuesta:</h3>
 <p>i.Casos Favorables: 12
