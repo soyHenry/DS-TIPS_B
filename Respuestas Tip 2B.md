@@ -2,30 +2,43 @@
 <h2>Grupo B --&gt; Segundo Set de Tips con Respuestas</h2>
 <h2>NO MOSTRAR A SUS PAREJAS DE TIPS!</h2>
 <h3>1)  Respuesta:</h3>
-<p>Permanentes: Table, Views, Procedures, Functions (definidas por el usuario), Triggers, Indexes.</p>
-<p>Temporales: Cursors</p>
+<p>INNER JOIN: Devuelve todas las filas cuando hay al menos una coincidencia en ambas tablas.</p>
+<p>LEFT JOIN: Devuelve todas las filas de la tabla IZQUIERDA y las filas coincidentes de la tabla de la derecha.</p>
+<p>RIGHT JOIN: Devuelve todas las filas de la tabla DERECHA y las filas coincidentes de la tabla de la izquierda.</p>
+<p>OUTER JOIN: Devuelve todas las filas de las dos tablas. También conocida como FULL OUTER JOIN.</p>
 <h3>2)  Respuesta:</h3>
-<p>NumPy es un paquete de módulos muy popular en Python, que permite realizar operaciones matemáticas y algebraicas muy fácil y eficientemente, gracias a su estructura de datos, llamada Array (o arreglo) que, al tener sólo un tipo de dato (a diferencia de las listas que pueden tener al mismo tiempo strings, floats, e incluso diccionarios o listas) permite trabajar mucho más eficientemente y aparte permite almacenar datos en varias dimensiones </p>
+<p>Los iteradores son objetos que contienen algunos valores contables. Ejemplo listas, tuplas, conjuntos y diccionarios. </p>
 <h3>3)  Respuesta:</h3>
-<p><code>a=input("enter sequence")
-b=a[::-1]
-if a==b:
-  print("palindrome")
-else:
-  print("Not a Palindrome")</code> </p>
+<p>```def factorial_iterativo(n):
+    factorial = 1
+    for i in range(1, n + 1):
+        factorial *= i
+    return factorial</p>
+<p>numero = 5
+resultado = factorial_iterativo(numero)
+print(f"El factorial de {numero} es: {resultado}")``` </p>
 <h3>4)  Respuesta:</h3>
-<p>DAX viene de “Data Analysis Expressions”. Es una colección de funciones, operadores y constantes usadas en fórmulas para calcular y retornar valores en POWER BI. </p>
+<p>Hay 3 tipos de vistas disponibles, cada una con un propósito diferente:</p>
+<p>Vista Reporte: permite añadir páginas, visualizaciones y publicar</p>
+<p>Vista de Data: permite realizar manejo de datos usando herramientas de Query Editor</p>
+<p>Vista de Modelo: permite manejar las relaciones entre las tablas de datos</p>
 <h3>5)  Respuesta:</h3>
-<p>La distribución normal es una distribución de probabilidad continua que se utiliza para modelar muchos fenómenos naturales y sociales. La distribución normal se caracteriza por una curva en forma de campana y se utiliza para describir variables que tienen una distribución simétrica. </p>
+<p>i. Casos Favorables: 8
+Casos posibles: 8 + 5 + 7 = 20
+Probabilidad = Casos Favorables/Casos Posibles= 8/20 = 0.4</p>
+<p>ii. Casos Favorables: 7
+Casos posibles: 8 + 5 + 7 = 20
+Probabilidad = Casos Favorables/Casos Posibles= 7/20 = 0.35</p>
+<p>iii. Casos Favorables: 5
+Casos posibles: 8 + 5 + 7 = 20
+Probabilidad = Casos Favorables/Casos Posibles= 5/20 = 0.25</p>
 <h3>6)  Respuesta:</h3>
-<p>a) 8 casos favorables de 20 posibles = 8/20 =  0.4</p>
-<p>b)La probabilidad de que al sacar 2 papeles al menos tenga un coche menos la probabilidad de que al sacar 2 papeles las dos sean blancas. Por lo tanto:
-= 1 - P(2 Blancas)
-= 1 - (12/20)*(12/20)
-= 1 - 0.36
-= 0.64</p>
-<p>c) Tenemos la probabilidad de que al sacar 3 papeles al menos una tenga un coche menos la probabilidad de que al sacar 3 todas sean blancas. Por lo tanto:
-= 1 - P(3 Blancas)
-= 1 - (12/20)<em>(12/20)</em>(12/20)
-= 1 - 0.216
-= 0.784</p>
+<p>i.Casos Favorables: 12
+Casos posibles: 8 + 5 + 7 = 20
+Probabilidad = Casos Favorables/Casos Posibles= 12/20 = 0.6</p>
+<p>ii. Casos Favorables: 13
+Casos posibles: 8 + 5 + 7 = 20
+Probabilidad = Casos Favorables/Casos Posibles= 13/20 = 0.65</p>
+<p>iii. Casos Favorables: 5
+Casos posibles: 8 + 5 + 7 = 20
+Probabilidad = Casos Favorables/Casos Posibles= 5/20 = 0.25</p>
