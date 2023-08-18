@@ -2,43 +2,31 @@
 <h2>Grupo B --&gt; Segundo Set de Tips con Respuestas</h2>
 <h2>NO MOSTRAR A SUS PAREJAS DE TIPS!</h2>
 <h3>1)  Respuesta:</h3>
-<p>INNER JOIN: Devuelve todas las filas cuando hay al menos una coincidencia en ambas tablas.</p>
-<p>LEFT JOIN: Devuelve todas las filas de la tabla IZQUIERDA y las filas coincidentes de la tabla de la derecha.</p>
-<p>RIGHT JOIN: Devuelve todas las filas de la tabla DERECHA y las filas coincidentes de la tabla de la izquierda.</p>
-<p>OUTER JOIN: Devuelve todas las filas de las dos tablas. También conocida como FULL OUTER JOIN.</p>
+<p>La normalización es el proceso de organizar los datos en una base de datos relacional en tablas separadas para reducir la redundancia y mejorar la integridad de los datos. </p>
 <h3>2)  Respuesta:</h3>
-<p>Los iteradores son objetos que contienen algunos valores contables. Ejemplo listas, tuplas, conjuntos y diccionarios. </p>
+<p>Hay dos tipos de alcances que tienen las variables en Python. Las variables locales están declaradas dentro de una función, no puede ser llamada desde el espacio global (fuera de la función). Las variables globales, están declaradas en el espacio global (entorno) y pueden ser llamadas dentro de distintas funciones dentro del mismo entorno. </p>
 <h3>3)  Respuesta:</h3>
-<p>```def factorial_iterativo(n):
-    factorial = 1
-    for i in range(1, n + 1):
-        factorial *= i
-    return factorial</p>
-<p>numero = 5
-resultado = factorial_iterativo(numero)
-print(f"El factorial de {numero} es: {resultado}")``` </p>
+<p><code>a=input("Ingresa una secuencia: ")
+b=a[::-1]
+if a==b:
+  print("Es palíndromo")
+else:
+  print("No es un palíndromo")</code> </p>
 <h3>4)  Respuesta:</h3>
-<p>Hay 3 tipos de vistas disponibles, cada una con un propósito diferente:</p>
-<p>Vista Reporte: permite añadir páginas, visualizaciones y publicar</p>
-<p>Vista de Data: permite realizar manejo de datos usando herramientas de Query Editor</p>
-<p>Vista de Modelo: permite manejar las relaciones entre las tablas de datos</p>
+<p>Columna Calculada:</p>
+<p>Se agregan a tablas existentes mediante fórmulas DAX sobre columnas existentes
+Define y almacena valores en una columna nueva sin hacer query a la fuente de datos</p>
+<p>Tabla calculada:</p>
+<p>Creada mediante fórmula DAX para definir todos sus valores
+Puede crearse tanto en Vista Reporte como en Vista Data</p>
+<p>Medidas:</p>
+<p>Se realiza a través de la query.</p>
 <h3>5)  Respuesta:</h3>
-<p>i. Casos Favorables: 8
-Casos posibles: 8 + 5 + 7 = 20
-Probabilidad = Casos Favorables/Casos Posibles= 8/20 = 0.4</p>
-<p>ii. Casos Favorables: 7
-Casos posibles: 8 + 5 + 7 = 20
-Probabilidad = Casos Favorables/Casos Posibles= 7/20 = 0.35</p>
-<p>iii. Casos Favorables: 5
-Casos posibles: 8 + 5 + 7 = 20
-Probabilidad = Casos Favorables/Casos Posibles= 5/20 = 0.25</p>
+<p>i. Casos Favorables: 6 = (1+6),(2+5),(3+4)... 
+Casos Posibles: 6*6 = 36
+Probabilidad = Casos Favorables/Casos Posibles = 6/36 = 0.1667</p>
+<p>ii. Casos posibles = 36
+Casos Favorables = 18
+Probabilidad = Casos FavorablesCasos Posibles= 18/36 = 0.5</p>
 <h3>6)  Respuesta:</h3>
-<p>i.Casos Favorables: 12
-Casos posibles: 8 + 5 + 7 = 20
-Probabilidad = Casos Favorables/Casos Posibles= 12/20 = 0.6</p>
-<p>ii. Casos Favorables: 13
-Casos posibles: 8 + 5 + 7 = 20
-Probabilidad = Casos Favorables/Casos Posibles= 13/20 = 0.65</p>
-<p>iii. Casos Favorables: 5
-Casos posibles: 8 + 5 + 7 = 20
-Probabilidad = Casos Favorables/Casos Posibles= 5/20 = 0.25</p>
+<p>La estadística descriptiva es una rama de la estadística que se utiliza para resumir y describir las características y patrones de un conjunto de datos. Algunas de las medidas comunes utilizadas en la estadística descriptiva son la media, la mediana, la moda y la desviación estándar. </p>
